@@ -16,7 +16,7 @@ $(() => {
 	var runDataActiveRun = nodecg.Replicant('runDataActiveRun', speedcontrolBundle);
 	runDataActiveRun.on('change', (newVal, oldVal) => {
 		// If we're on the relay...
-		if (newVal && (newVal.game === 'All Souls Games' || newVal.category.toLowerCase().indexOf('relay') >= 0)) {
+		if (newVal && (newVal.game === 'All Souls Games' || newVal.category.toLowerCase().indexOf('relay') >= 0 || newVal.game.toLowerCase().indexOf('relay') >= 0)) {
 			notApplicableText.hide();
 			isApplicable.show();
 			var team1 = newVal.teams[0];

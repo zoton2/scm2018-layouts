@@ -28,7 +28,7 @@ $(() => {
 	runDataActiveRun.on('change', (newVal, oldVal) => {
 		if (newVal) {
 			// Runner display is treated differently for the relay race.
-			if (newVal.game === 'All Souls Games' || newVal.category.toLowerCase().indexOf('relay') >= 0) {
+			if (newVal.game === 'All Souls Games' || newVal.category.toLowerCase().indexOf('relay') >= 0 || newVal.game.toLowerCase().indexOf('relay') >= 0) {
 				relay = true;
 				if (!changingRelay)
 					setTimeout(() => {updateSceneFields(newVal);}, 1000);
