@@ -1,0 +1,81 @@
+{
+  "name": "scm2018-layouts",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "zoton2",
+    "email": "zoton2@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.0.0",
+    "dependencies": [
+      "speedcontrol/nodecg-speedcontrol:~0.9"
+    ],
+    "dashboardPanels": [
+      {
+        "name": "change-host",
+        "title": "Change Host",
+        "width": 2,
+        "file": "change-host.html"
+      },
+      {
+        "name": "relay-runner-changer",
+        "title": "Relay Runner Changer",
+        "width": 2,
+        "file": "relay-runner-changer.html"
+      }
+    ],
+    "assetCategories": [
+      {
+        "name": "sponsors",
+        "title": "Sponsor Logos",
+        "allowedTypes": [
+          "jpg",
+          "jpeg",
+          "png",
+          "gif"
+        ]
+      }
+    ],
+    "graphics": [
+      {
+        "file": "intermission.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "1-player.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "2-player.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "3-player.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4-player.html",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "license": "Apache-2.0"
+}

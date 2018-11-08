@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="relay-runner-changer.js"></script>
+		<style>
+			#tick {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<span id="notApplicableText">This isn't applicable for this run.</span>
+		<span id="isApplicable">
+			Team 1:<br>
+			<span id="team1Buttons"></span>
+			<br><br>Team 2:<br>
+			<span id="team2Buttons"></span>
+			<br><br><button type="button" id="runnerChangeSubmit">Update</button><span id="tick">✔️</span>
+		</span>
+	</body>
+</html>

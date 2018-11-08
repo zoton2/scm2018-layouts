@@ -1,0 +1,38 @@
+.storageBox {
+	border-bottom: 2px solid #008be2;
+	box-shadow: 0px 0px 250px 0px rgba(5,135,189,0.08);
+}
+
+.gameInfoBox hr {
+	border-color: #008be2;
+}
+
+.eventLogoNormal {
+	background-image: url('../images/blue/scm-logo.png');
+}
+
+.eventLogoLong {
+	background-image: url('../images/blue/scm-logo-long.png');
+}
+
+.eventLogoIntermission {
+	background-image: url('../images/blue/scm-logo-intermission.png');
+}
+
+.runnerInfoContainer .runnerNameWrapper {
+	background-image: url('../images/blue/3p-runner-bg.png');
+}
+
+.runnerInfoContainer .runnerOuterEdge {
+	background-image: url('../images/blue/3p-runner-outer-edge.png');
+}
+
+.runnerEdge {
+	content: url('../images/blue/3p-runner-edge.png');
+}
+
+/* Different colours for each state the timer can be in. */
+.timer_paused {color: #aed8f2;}
+.timer_running {color: #7fbadf;}
+.timer_stopped {color: #c9e2f2;}
+.timer_finished {color: #0596f1;}

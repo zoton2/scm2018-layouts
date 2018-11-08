@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html data-sceneid="intermission">
+	<head>
+		<meta charset="UTF-8">
+		
+		<!-- CSS -->
+		<link href="css/common.css" rel="stylesheet"/>
+		<link href="css/intermission.css" rel="stylesheet"/>
+		<link id="colourScheme" href="css/blue.css" rel="stylesheet"/>
+		
+		<!-- JavaScript -->
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/jquery-animateNumber/jquery.animateNumber.min.js"></script>
+		<script src="js/animation.js"></script>
+		<script src="js/layout-style.js"></script>
+		<script src="js/host.js"></script>
+		<script src="js/donations.js"></script>
+		<script src="js/sponsors.js"></script>
+		<script src="js/intermission.js"></script>
+	</head>
+	<body>
+		<!-- Background image -->
+		<div id="background"></div>
+		
+		<!-- SCM logo -->
+		<div id="eventLogo" class="eventLogoIntermission"></div>
+		
+		<!-- Intermission header text -->
+		<div id="intermissionHeader"></div>
+		
+		<!-- Up next -->
+		<div id="upNextHeaderBox" class="headerBox flexContainer">
+			<img src="images/intermission-subheaders-outer-line.png">
+			<div class="headerOuterEdge"></div>
+			<img src="images/intermission-subheaders-edge.png">
+			<div class="headerText flexContainer">Up Next</div>
+			<img src="images/intermission-subheaders-edge.png">
+			<div class="headerOuterEdge"></div>
+			<img src="images/intermission-subheaders-outer-line.png">
+		</div>
+		<div id="upNextBox" class="gameInfoBox storageBox flexContainer">
+			<div>
+				<span class="gameName"></span>
+				<hr>
+				<span class="gameCatAndRunner"></span>
+			</div>
+		</div>
+		
+		<!-- On deck -->
+		<div id="onDeckHeaderBox" class="headerBox flexContainer">
+			<img src="images/intermission-subheaders-outer-line.png">
+			<div class="headerOuterEdge"></div>
+			<img src="images/intermission-subheaders-edge.png">
+			<div class="headerText flexContainer">On Deck</div>
+			<img src="images/intermission-subheaders-edge.png">
+			<div class="headerOuterEdge"></div>
+			<img src="images/intermission-subheaders-outer-line.png">
+		</div>
+		<div id="onDeckBox" class="gameInfoBox storageBox flexContainer">
+			<div>
+				<span class="gameName"></span>
+				<hr>
+				<span class="gameCatAndRunner"></span>
+			</div>
+		</div>
+		
+		<!-- Prizes -->
+		<!--<div id="prizesHeaderBox" class="headerBox flexContainer">
+			<img src="images/intermission-subheaders-outer-line.png">
+			<div class="headerOuterEdge"></div>
+			<img src="images/intermission-subheaders-edge.png">
+			<div class="headerText flexContainer">Prizes</div>
+			<img src="images/intermission-subheaders-edge.png">
+			<div class="headerOuterEdge"></div>
+			<img src="images/intermission-subheaders-outer-line.png">
+		</div>
+		<div id="prizesBox" class="storageBox flexContainer">
+			To Be Finished
+		</div>-->
+		
+		<!-- Sponsors -->
+		<div id="sponsorBox" class="storageBox flexContainer">
+			<div id="sponsorLogo" class="sponsorLogoCurrent"></div>
+		</div>
+		
+		<!-- Donation total -->
+		<div id="donationTotalBox" class="storageBox flexContainer">
+			<img id="stcLogo" src="images/stc-logo.png">
+			<span id="donationTotal"></span>
+		</div>
+	</body>
+</html>

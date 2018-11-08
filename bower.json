@@ -1,0 +1,9 @@
+{
+  "name": "scm2018-layouts",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "letteringjs": "^0.7.0",
+    "jquery-textfill": "^0.6.0",
+    "jquery-animateNumber": "^0.0.14"
+  }
+}

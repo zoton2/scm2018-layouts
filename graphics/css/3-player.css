@@ -1,0 +1,135 @@
+#eventLogo {
+	left: 30px;
+	top: 519px;
+	width: 157px;
+	height: 165px;
+}
+
+.gameCapture {
+	width: 608px;
+	height: 342px;
+}
+
+#gameCapture1 {
+	left: 30px;
+	top: 0px;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+#gameCapture2 {
+	left: 640px;
+	top: 0px;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+#gameCapture3 {
+	left: 640px;
+	top: 376px;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+#donationTotalBox {
+	left: 418px;
+	top: 602px;
+	width: 192px;
+	height: 75px;
+}
+
+#hostBox {
+	left: 342px;
+	top: 510px;
+	width: 268px;
+	height: 75px;
+}
+
+.runnerInfoContainer {
+	position: fixed;
+	left: 100px;
+	top: 350px;
+	width: 612px;
+	height: 34px;
+	box-shadow: 0px 0px 250px 0px rgba(5,135,189,0.08);
+}
+
+#runnerInfoContainer1 {
+	left: 30px;
+	top: 342px;
+}
+
+#runnerInfoContainer2 {
+	left: 640px;
+	top: 342px;
+}
+
+#runnerInfoContainer3 {
+	left: 640px;
+	top: 342px;
+}
+
+/* Start of code that controls the runner info box style. */
+
+/* This edge takes up all the space it can. */
+#runnerInfoContainer1 .runnerOuterEdgeLeft, #runnerInfoContainer2 .runnerOuterEdgeLeft {flex: 1;}
+
+/* This edge has a set size. */
+#runnerInfoContainer1 .runnerOuterEdgeRight, #runnerInfoContainer2 .runnerOuterEdgeRight {width: 25px;}
+
+#runnerInfoContainer1 .runnerOuterEdge, #runnerInfoContainer1 .runnerEdge, #runnerInfoContainer2 .runnerOuterEdge, #runnerInfoContainer2 .runnerEdge {
+	transform: scaleY(-1);
+}
+
+#runnerInfoContainer1 .runnerEdgeRight, #runnerInfoContainer2 .runnerEdgeRight {transform: scale(-1, -1);}
+#runnerInfoContainer1 .runnerNameWrapper, #runnerInfoContainer2 .runnerNameWrapper {transform: scaleY(-1);}
+#runnerInfoContainer1 .runnerNameWrapper *, #runnerInfoContainer2 .runnerNameWrapper * {transform: scaleY(-1);}
+#runnerInfoContainer3 .runnerOuterEdgeLeft {width: 25px;} /* This edge has a set size. */
+#runnerInfoContainer3 .runnerOuterEdgeRight {flex: 1;} /* This edge takes up all the space it can. */
+
+.runnerInfoContainer .runnerNameWrapper {
+	box-sizing: border-box;
+	height: inherit;
+}
+
+.runnerInfoContainer .runnerLogo {
+	height: 70%;
+	padding-left: 2px;
+	padding-right: 10px;
+}
+
+#runnerInfoContainer1 .runnerLogo, #runnerInfoContainer2 .runnerLogo {padding-bottom: 2px;}
+#runnerInfoContainer3 .runnerLogo {padding-top: 2px;}
+
+.runnerInfoContainer .runnerName {
+	font-size: 24px;
+	height: calc(100% - 4px);
+	padding-top: 7px;
+	padding-right: 5px;
+}
+
+.runnerInfoContainer .runnerEdgeRight {transform: scaleX(-1);} /* Right is the same as left but flipped. */
+
+.runnerInfoContainer .runnerOuterEdge {
+	height: inherit;
+}
+
+/* End of code that controls the runner info box style. */
+
+#runInfoBox {
+	left: 30px;
+	top: 392px;
+	width: 580px;
+	height: 100px;
+}
+
+#sponsorBox {
+	height: 100%;
+	width: 160px;
+	opacity: 0;
+}
+
+#sponsorLogo {
+	width: inherit;
+	height: calc(100% - 30px);
+}

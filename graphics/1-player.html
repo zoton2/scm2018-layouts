@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html data-sceneid="1-player">
+	<head>
+		<meta charset="UTF-8">
+		
+		<!-- CSS -->
+		<link href="css/common.css" rel="stylesheet"/>
+		<link href="css/1-player.css" rel="stylesheet"/>
+		<link id="colourScheme" href="css/blue.css" rel="stylesheet"/>
+		
+		<!-- JavaScript -->
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/letteringjs/jquery.lettering.js"></script>
+		<script src="../bower_components/jquery-animateNumber/jquery.animateNumber.min.js"></script>
+		<script src="js/layout-style.js"></script>
+		<script src="js/animation.js"></script>
+		<script src="js/run-info.js"></script>
+		<script src="js/player-info.js"></script>
+		<script src="js/timer.js"></script>
+		<script src="js/host.js"></script>
+		<script src="js/donations.js"></script>
+		<script src="js/sponsors.js"></script>
+	</head>
+	<body>
+		<!-- Background image -->
+		<div id="background"></div>
+		
+		<!-- SCM logo -->
+		<div id="eventLogo" class="eventLogoNormal"></div>
+		
+		<!-- Game area(s) -->
+		<div id="gameCapture1" class="gameCapture storageBox"></div>
+		
+		<!-- Donation total -->
+		<div id="donationTotalBox" class="storageBox flexContainer">
+			<img id="stcLogo" src="images/stc-logo.png">
+			<span id="donationTotal"></span>
+		</div>
+		
+		<!-- Host -->
+		<div id="hostBox" class="storageBox flexContainer">
+			<div>
+				<span>Host:</span><br>
+				<span id="hostText"></span>
+			</div>
+		</div>
+		
+		<!-- Run information -->
+		<div id="runInfoBox" class="storageBox flexContainer">
+			<!-- Runner name -->
+			<div id="runnerInfoContainer1" class="runnerInfoContainer flexContainer">
+				<img class="runnerLogo">
+				<div class="runnerName"></div>
+			</div>
+			
+			<!-- Run game/category -->
+			<div id="runTitlesContainer" class="flexContainer">
+				<div>
+					<div id="runGame"></div>
+					<div id="runCategory"></div>
+				</div>
+			</div>
+			
+			<!-- Timer/estimate -->
+			<div id="timerContainer" class="flexContainer">
+				<div>
+					<div id="currentTimer"></div>
+					<div id="estimateTimer"></div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Sponsors -->
+		<div id="sponsorBox" class="storageBox flexContainer">
+			<div id="sponsorLogo" class="sponsorLogoCurrent"></div>
+		</div>
+	</body>
+</html>

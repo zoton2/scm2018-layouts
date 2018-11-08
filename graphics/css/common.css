@@ -1,0 +1,150 @@
+/* Custom Font */
+@font-face {
+	font-family: 'OptimusPrinceps';
+	src: url('../images/OptimusPrinceps.ttf') format('truetype');
+}
+
+/* Some general settings used for everything and other minor changes to the body. */
+body {
+	font-family: 'OptimusPrinceps';
+	color: white;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/* The actual background image will be changed via JS. */
+#background {
+	position: fixed;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/backgrounds/darksouls1_2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1280px;
+	height: 720px;
+}
+
+#eventLogo {
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* All areas that store something. */
+/* A slightly transparent black background with 2px black border, with a 2px blue bottom border. */
+.storageBox {
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	border: 2px solid black;
+	overflow: hidden;
+}
+
+/* Basic flex container class which auto centres it's contents. */
+.flexContainer {
+	display: flex;
+	align-items: center; /* Aligns vertically centre. */
+	justify-content: center; /* Aligns horizontally centre. */
+}
+
+#donationTotalBox {
+	justify-content: flex-start; /* Aligns horizontally left. */
+}
+
+#stcLogo {
+	padding-left: 15px;
+}
+
+#donationTotal {
+	text-align: center;
+	font-size: 36px;
+	padding-top: 5px; /* Hack to fix the text not being "vertically centre". */
+	flex: 1;
+}
+
+#runInfoBox {
+	text-align: center;
+	justify-content: space-around;
+	white-space: nowrap;
+}
+
+.runnerLogo {
+	padding-right: 10px;
+}
+
+.nameLogo {
+	content: url('../images/player-icon.png');
+}
+
+.twitchLogo {
+	content: url('../images/twitch-icon.png');
+}
+
+.runnerName {
+	font-size: 30px;
+	padding-top: 5px; /* Hack to fix the text not being "vertically centre". */
+}
+
+#runGame {
+	font-size: 30px;
+	line-height: 110%;
+}
+
+#runCategory {
+	font-size: 20px;
+	line-height: 70%;
+}
+
+#currentTimer {
+	font-size: 48px;
+	line-height: 80%;
+}
+
+#estimateTimer {
+	font-size: 30px;
+	line-height: 70%;
+}
+
+#hostBox {
+	text-align: center;
+}
+
+#hostBox span {
+	opacity: 0;
+}
+
+/* Adds text to start and end of estimate. */
+#estimateTimer:before {content: 'est. ';}
+#estimateTimer:after {content: ':00';}
+
+/* Each character in the timer is in a span; setting width so the numbers appear monospaced. */
+#currentTimer span {
+	display: inline-block;
+	width: 0.47em;
+	text-align: center;
+}
+#currentTimer .char3, #currentTimer .char6 {width: 0.17em;}
+
+#sponsorLogo {
+	width: calc(100% - 15px);
+	height: calc(100% - 15px);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.sponsorLogoCurrent {
+	position: absolute;
+	opacity: 1;
+}
+
+.sponsorLogoNext {
+	position: absolute;
+	opacity: 0;
+}
+
+/* Set all boxes opacities to 0 on load. */
+#runGame, #runCategory, #currentTimer, #estimateTimer, .runnerInfoContainer {
+	opacity: 0;
+}

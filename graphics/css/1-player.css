@@ -1,0 +1,56 @@
+#eventLogo {
+	left: 42px;
+	top: 25px;
+	width: 157px;
+	height: 163px;
+}
+
+.gameCapture {
+	width: 1024px;
+	height: 576px;
+}
+
+#gameCapture1 {
+	left: 229px;
+	top: 23px;
+}
+
+#donationTotalBox {
+	left: 25px;
+	top: 622px;
+	width: 185px;
+	height: 75px;
+}
+
+#hostBox {
+	left: 25px;
+	top: 514px;
+	width: 185px;
+	height: 85px;
+}
+
+#runInfoBox {
+	left: 229px;
+	top: 622px;
+	width: 1024px;
+	height: 75px;
+}
+
+/* Some names do go outside of this but in those cases it should be fine. */
+#runnerInfoContainer1 {
+	width: 280px;
+}
+
+.runnerLogo {
+	height: 36px;
+}
+
+#sponsorBox {
+	left: 25px;
+	top: 206px;
+	width: 185px;
+	height: 118px;
+}
+
+#sponsorLogo {
+	height: calc(100% - 30px);

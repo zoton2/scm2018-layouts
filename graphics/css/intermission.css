@@ -1,0 +1,118 @@
+#eventLogo {
+	left: 600px;
+	top: 35px;
+	width: 82px;
+	height: 108px;
+}
+
+#intermissionHeader {
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url('../images/intermission-header-text.png');
+	left: 343px;
+	top: 138px;
+	width: 594px;
+	height: 108px;
+}
+
+.headerBox {
+	position: fixed;
+	height: 24px;
+}
+
+.headerBox .headerOuterEdge {
+	height: inherit;
+	background-image: url('../images/intermission-subheaders-outer-edge.png');
+	flex: 1;
+}
+
+.headerBox .headerText {
+	box-sizing: border-box;
+	height: inherit;
+	background-image: url('../images/intermission-subheaders-bg.png');
+	font-size: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.gameInfoBox {
+	text-align: center;
+}
+
+.gameInfoBox hr {
+	margin-top: -3px;
+	width: 257px;
+}
+
+.gameName {
+	text-align: center;
+	font-size: 47px;
+}
+
+.gameCatAndRunner {
+	text-align: center;
+	font-size: 24px;
+}
+
+#upNextHeaderBox {
+	left: 164px;
+	top: 273px;
+	width: 655px;
+}
+
+#upNextBox {
+	left: 164px;
+	top: 297px;
+	width: 651px;
+	height: 174px;
+	border-top: 0;
+}
+
+#onDeckHeaderBox {
+	left: 164px;
+	top: 493px;
+	width: 655px;
+}
+
+#onDeckBox {
+	left: 164px;
+	top: 517px;
+	width: 651px;
+	height: 174px;
+	border-top: 0;
+}
+
+/*#prizesHeaderBox {
+	left: 183px;
+	top: 453px;
+	width: 624px;
+}
+
+#prizesBox {
+	left: 183px;
+	top: 477px;
+	width: 620px;
+	height: 210px;
+	border-top: 0;
+}*/
+
+#sponsorBox {
+	left: 837px;
+	top: 291px;
+	width: 256px;
+	height: 178px;
+}
+
+#sponsorLogo {
+	height: calc(100% - 30px);
+}
+
+#donationTotalBox {
+	left: 837px;
+	top: 639px;
+	width: 256px;
+	height: 50px;
+}

@@ -1,0 +1,103 @@
+.gameCapture {
+	width: 512px;
+	height: 288px;
+}
+
+#gameCapture1 {
+	left: 15px;
+	top: 70px;
+	border-bottom: 2px solid black;
+}
+
+#gameCapture2 {
+	left: 748px;
+	top: 70px;
+	border-bottom: 2px solid black;
+}
+
+#gameCapture3 {
+	left: 15px;
+	top: 358px;
+}
+
+#gameCapture4 {
+	left: 748px;
+	top: 358px;
+}
+
+#topBox {
+	justify-content: space-between;
+	left: 15px;
+	top: 9px;
+	width: 1245px;
+	height: 50px;
+}
+
+#donationTotalBox {
+	width: 150px;
+}
+
+#hostBox {
+	left: 542px;
+	top: 70px;
+	width: 192px;
+	height: 57px;
+}
+
+#middleBox {
+	left: 542px;
+	top: 139px;
+	width: 192px;
+	height: 507px;
+	align-items: flex-end; /* Aligns vertically bottom. */
+}
+
+#eventLogo {
+	left: 562px;
+	top: 200px;
+	width: 157px;
+	height: 164px;
+}
+
+#sponsorBox {
+	position: fixed;
+	left: 544px;
+	top: 400px;
+	width: 192px;
+	height: 100px;
+}
+
+#runTitlesContainer {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.runnerInfoContainer {
+	width: 472px;
+}
+
+.runnerLogo {
+	height: 32px;
+}
+
+#bottomBox {
+	justify-content: space-between;
+	left: 15px;
+	top: 658px;
+	width: 1245px;
+	height: 50px;
+}
+
+#timerContainer {
+	padding-top: 5px;
+	width: 300px;
+}
+
+#currentTimer {
+	font-size: 40px;
+}
+
+#estimateTimer {
+	padding-right: 10px;
+	font-size: 27px;
+}
