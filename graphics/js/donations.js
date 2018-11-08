@@ -9,7 +9,8 @@ $(() => {
 	donationTotal.on('change', (newVal, oldVal) => {
 		// On initial page load so no animation is needed.
 		if (!oldVal) {
-			var value = newVal.toLocaleString('en-US', {minimumFractionDigits: 0});
+			var flooredNumber = Math.floor(newVal);
+			var value = flooredNumber.toLocaleString('en-US', {minimumFractionDigits: 0});
 			$donationTotal.html('$'+value);
 		}
 		
