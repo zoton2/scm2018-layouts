@@ -68,7 +68,7 @@ body {
 	justify-content: space-around;
 	white-space: nowrap;
 }
-
+''
 .runnerLogo {
 	padding-right: 10px;
 }
@@ -116,7 +116,7 @@ body {
 
 /* Adds text to start and end of estimate. */
 #estimateTimer:before {content: 'est. ';}
-#estimateTimer:after {content: ':00';}
+/*#estimateTimer:after {content: ':00';}*/
 
 /* Each character in the timer is in a span; setting width so the numbers appear monospaced. */
 #currentTimer span {
