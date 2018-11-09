@@ -1,8 +1,11 @@
 #eventLogo {
 	left: 30px;
 	top: 519px;
-	width: 157px;
+	width: 250px;
 	height: 165px;
+	background-image: url('../images/SCM_Logo_2018_WHITETEXT.png');
+	background-size: contain;
+	background-position: center;
 }
 
 .gameCapture {

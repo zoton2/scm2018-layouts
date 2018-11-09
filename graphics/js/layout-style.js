@@ -52,15 +52,12 @@ $(() => {
 		else if (!defaultStyle && flatName.startsWith('darksoulsii') && !flatName.startsWith('darksoulsiii')) {
 			switch(sceneID) {
 				case '1-player':
+				case '2-player':
 				case '3-player':
+				case '4-player':
 				case 'intermission':
 					setBackground('darksouls2_1');
-					setColourScheme('orange');
-					break;
-				case '2-player':
-				case '4-player':
-					setBackground('darksouls2_2');
-					setColourScheme('orange');
+					setColourScheme('blue');
 					break;
 			}
 		}
@@ -68,18 +65,12 @@ $(() => {
 		else if (!defaultStyle && flatName.startsWith('darksoulsiii')) {
 			switch(sceneID) {
 				case '1-player':
+				case '2-player':
+				case '3-player':
+				case '4-player':
 				case 'intermission':
 					var random = randomInt(1,3); // actually 1 or 2
-					setBackground('darksouls3_'+random);
-					setColourScheme('blue');
-					break;
-				case '3-player':
-					setBackground('darksouls3_4');
-					setColourScheme('blue');
-					break;
-				case '2-player':
-				case '4-player':
-					setBackground('darksouls3_3');
+					setBackground('darksouls3_1');
 					setColourScheme('blue');
 					break;
 			}
@@ -88,14 +79,11 @@ $(() => {
 		else if (!defaultStyle && flatName.startsWith('bloodborne')) {
 			switch(sceneID) {
 				case '1-player':
+				case '2-player':
 				case '3-player':
+				case '4-player':
 				case 'intermission':
 					setBackground('bloodborne_1');
-					setColourScheme('blue');
-					break;
-				case '2-player':
-				case '4-player':
-					setBackground('bloodborne_2');
 					setColourScheme('blue');
 					break;
 			}
@@ -104,16 +92,12 @@ $(() => {
 		else if (!defaultStyle && flatName.startsWith('demonssouls')) {
 			switch(sceneID) {
 				case '1-player':
+				case '2-player':
 				case '3-player':
 				case '4-player':
 				case 'intermission':
-					var random = randomInt(1,3); // actually 1 or 2
-					setBackground('demonsouls_'+random);
-					setColourScheme('orange');
-					break;
-				case '2-player':
-					setBackground('demonsouls_3');
-					setColourScheme('orange');
+					setBackground('demonsouls_1');
+					setColourScheme('blue');
 					break;
 			}
 		}

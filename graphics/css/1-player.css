@@ -5,6 +5,11 @@
 	height: 163px;
 }
 
+.scmLogo {
+	width: 143px;
+	height: 52px;
+}
+
 .gameCapture {
 	width: 1024px;
 	height: 576px;
@@ -13,6 +18,20 @@
 #gameCapture1 {
 	left: 229px;
 	top: 23px;
+}
+
+#gameCapture1FS {
+	left: 342px;
+	top: 23px;
+	width: 800px;
+	height: 576px;
+}
+
+#webcam1 {
+	left: 10px;
+	top: 467px;
+	width: 208px;
+	height: 132px;
 }
 
 #donationTotalBox {
@@ -24,7 +43,7 @@
 
 #hostBox {
 	left: 25px;
-	top: 514px;
+	top: 163px;
 	width: 185px;
 	height: 85px;
 }
@@ -47,10 +66,11 @@
 
 #sponsorBox {
 	left: 25px;
-	top: 206px;
+	top: 23px;
 	width: 185px;
 	height: 118px;
 }
 
 #sponsorLogo {
 	height: calc(100% - 30px);
+}

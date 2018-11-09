@@ -1,48 +1,76 @@
 #eventLogo {
-	left: 416px;
-	top: 13px;
-	width: 445px;
-	height: 129px;
+	left: 496px;
+	top: 50px;
+	width: 286px;
+	height: 104px;
+	background-image: url('../images/SCM_Logo_2018_WHITETEXT.png');
+	background-size: contain;
+	background-position: center;
 }
 
 .gameCapture {
 	width: 620px;
 	height: 347px;
-	top: 152px;
+	top: 185px;
 }
 
 #gameCapture1 {
-	left: 16px;
+	left: 18px;
 }
 
 #gameCapture2 {
-	left: 636px;
+	left: 638px;
+}
+
+#webcam1 {
+	left: 34px;
+	top: 36px;
+	width: 208px;
+	height: 132px;
+}
+
+#webcam2 {
+	left: 1034px;
+	top: 36px;
+	width: 208px;
+	height: 132px;
 }
 
 #donationTotalBox {
-	left: 303px;
-	top: 637px;
-	width: 167px;
-	height: 65px;
+	left: 154px;
+	top: 623px;
+	width: 202px;
+	height: 80px;
 }
 
 #hostBox {
-	left: 487px;
-	top: 637px;
-	width: 305px;
-	height: 65px;
+	left: 356px;
+	top: 623px;
+	width: 230px;
+	height: 80px;
 }
 
 #runInfoBox {
-	left: 431px;
-	top: 519px;
-	width: 411px;
-	height: 100px;
+	left: 475px;
+	top: 549px;
+	width: 304px;
+	height: 60px;
+}
+
+#runTimerBox {
+	left: 586px;
+	top: 623px;
+	width: 230px;
+	height: 80px;
+	
+	text-align: center;
+	justify-content: space-around;
+	white-space: nowrap;
 }
 
 .runnerInfoContainer {
-	width: 411px;
-	height: 100px;
+	width: 308px;
+	height: 60px;
 	opacity: 1; /* Overriding the value in common.css */
 }
 
@@ -51,18 +79,18 @@
 }
 
 #runnerInfoContainer1 {
-	left: 16px;
-	top: 519px;
+	left: 154px;
+	top: 549px;
 }
 
 #runnerInfoContainer2 {
-	left: 845px;
-	top: 519px;
+	left: 794px;
+	top: 549px;
 }
 
 #sponsorBox {
-	left: 808px;
-	top: 637px;
-	width: 206px;
-	height: 65px;
+	left: 816px;
+	top: 623px;
+	width: 286px;
+	height: 80px;
 }

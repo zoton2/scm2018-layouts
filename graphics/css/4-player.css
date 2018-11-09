@@ -56,7 +56,10 @@
 	left: 562px;
 	top: 200px;
 	width: 157px;
-	height: 164px;
+	height: 100px;
+	background-image: url('../images/SCM_Logo_2018_WHITETEXT.png');
+	background-size: contain;
+	background-position: center;
 }
 
 #sponsorBox {

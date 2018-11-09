@@ -56,12 +56,32 @@
         "height": 720
       },
       {
-        "file": "1-player.html",
+        "file": "1-player-16_9.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "1-player-16_9-webcam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "1-player-4_3.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "1-player-4_3-webcam.html",
         "width": 1280,
         "height": 720
       },
       {
         "file": "2-player.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "2-player-webcam.html",
         "width": 1280,
         "height": 720
       },

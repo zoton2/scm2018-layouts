@@ -3,6 +3,8 @@
 	top: 35px;
 	width: 82px;
 	height: 108px;
+	background-size: contain;
+	background-position: center;
 }
 
 #intermissionHeader {

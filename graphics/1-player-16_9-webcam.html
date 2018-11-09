@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html data-sceneid="2-player">
+<html data-sceneid="1-player">
 	<head>
 		<meta charset="UTF-8">
 		
 		<!-- CSS -->
 		<link href="css/common.css" rel="stylesheet"/>
-		<link href="css/2-player.css" rel="stylesheet"/>
+		<link href="css/1-player.css" rel="stylesheet"/>
 		<link id="colourScheme" href="css/blue.css" rel="stylesheet"/>
 		
 		<!-- JavaScript -->
@@ -26,11 +26,10 @@
 		<div id="background"></div>
 		
 		<!-- SCM logo -->
-		<div id="eventLogo" class="eventLogoLong"></div>
+		<!--<div id="eventLogo" class="eventLogoNormal"></div>-->
 		
 		<!-- Game area(s) -->
 		<div id="gameCapture1" class="gameCapture storageBox"></div>
-		<div id="gameCapture2" class="gameCapture storageBox"></div>
 		
 		<!-- Donation total -->
 		<div id="donationTotalBox" class="storageBox flexContainer">
@@ -45,23 +44,18 @@
 				<span id="hostText"></span>
 			</div>
 		</div>
-		
-		<!-- Runner names -->
-		<div id="runnerInfoContainer1" class="runnerInfoContainer storageBox flexContainer">
-			<div class="runnerWrapper">
-				<img class="runnerLogo">
-				<span class="runnerName"></span>
-			</div>
-		</div>
-		<div id="runnerInfoContainer2" class="runnerInfoContainer storageBox flexContainer">
-			<div class="runnerWrapper">
-				<img class="runnerLogo">
-				<span class="runnerName"></span>
-			</div>
-		</div>
+
+		<!-- webcam -->
+		<div id="webcam1" class="webcam storageBox"></div>
 		
 		<!-- Run information -->
 		<div id="runInfoBox" class="storageBox flexContainer">
+			<!-- Runner name -->
+			<div id="runnerInfoContainer1" class="runnerInfoContainer flexContainer">
+				<img class="runnerLogo">
+				<div class="runnerName"></div>
+			</div>
+			
 			<!-- Run game/category -->
 			<div id="runTitlesContainer" class="flexContainer">
 				<div>
@@ -69,14 +63,18 @@
 					<div id="runCategory"></div>
 				</div>
 			</div>
-		</div>
-		<div id="runTimerBox" class="storageBox flexContainer">
+			
 			<!-- Timer/estimate -->
 			<div id="timerContainer" class="flexContainer">
 				<div>
 					<div id="currentTimer"></div>
 					<div id="estimateTimer"></div>
 				</div>
+			</div>
+
+			<!-- event logo -->
+			<div id="scmLogoContainer" class="flexContainer">
+				<img class="scmLogo" src="images/SCM_Logo_2018_WHITETEXT.png">
 			</div>
 		</div>
 		
